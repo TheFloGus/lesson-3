@@ -1,0 +1,182 @@
+ * {
+    margin: 0;
+    padding: 0;
+} 
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    /* background-color: #E72424; */
+}
+
+.title--top {
+    padding-top: 100px;
+    color: black;
+}
+
+.line {
+    width: 64px;
+    height: 2px;
+}
+
+.line--top {
+    margin: 25px auto;
+    border-top: 2px solid #E72424;
+}
+
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: #86878b;
+}
+
+.main {
+    padding: 51px 84px 60px 84px; 
+    text-align: center;
+    font-size: 0;
+    /* background-color: black; */
+}
+
+.section {
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    margin: 0 16px;
+    padding-bottom: 108px;
+    /* background-color: black; */
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 1px solid  #ff8b38;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.circle--light {
+    background: url(../img/lightbulb.png) no-repeat center;
+}
+
+.circle--key {
+    background: url(../img/keyboard.png) no-repeat center;
+}
+
+.circle--flash {
+    background: url(../img/lightning.png) no-repeat center;
+}
+
+.subject {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.text {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+
+.sectionimg {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(..//img/background.png) no-repeat center;
+    background-size: cover;
+    padding-top: 76px;
+    padding-bottom: 38px;
+    text-align: center;
+}
+
+.title--bottom {
+    color: white;
+}
+ .line--bottom {
+    margin: 48px auto 10px;
+    border-top: 2px solid #ffffff;
+ }
+ .subtext {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: rgba(255, 255, 2555, 0.80);
+ }
+
+ .button {
+    font-family: 'Open Sans', sans-serif;
+    background-color: transparent;
+	border: 1px solid #ffffff;
+	display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 26px;
+    margin-top: 41px;
+    color: #ffffff;
+    text-decoration: none;
+    
+ }
+ .button:active {
+     position: relative;
+     top: 1px;
+ }
+
+
+.footer {
+    background-color: black;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 0;
+}
+
+.socialmedia {
+    /* display: table; */
+    margin: 0 auto;
+    background: url(../img/icons.png) center no-repeat;
+    
+}
+
+.sociallink {
+    display: inline;
+}
+
+.iconlink {
+    display: inline-block;
+    width: 33px;
+    margin-right: 13px;
+    height: 23px;
+    color: transparent;
+    border: 2px solid transparent;
+}
+
+.iconlink:hover {
+    border: 2px solid gray;
+    border-radius: 20%;
+}
+
+.copyright {
+    display: inline-block;
+    margin: 20px auto 15px;
+    text-align: center;
+}
+
+.copyrightlink {
+    text-decoration: none;
+    color: rgba(255, 255, 2555, 0.5);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
